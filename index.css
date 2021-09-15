@@ -1,0 +1,34 @@
+html{
+    background-color: #feffed;
+}
+.footer-class{
+    text-align: right;
+    font-family:'Courier New', Courier, monospace;
+    border-bottom: solid black 1px;
+}
+.footer-class a{
+    text-decoration: none;
+}
+.top-container{
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: solid black 1px;
+}
+.top-container h1{
+    text-align: center;
+    text-decoration: solid;
+    font-size: 3rem;
+}
+.top-container p{
+    font-size: 1.5rem;
+}
+.today-container{
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: solid black 1px;
+}
+.website-list-container{
+    font-size: 1.2rem;
+}
+.website-list-container ul li{
+    padding: 5px;
+}
