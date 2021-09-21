@@ -32,3 +32,7 @@ html{
 .website-list-container ul li{
     padding: 5px;
 }
+
+.today-container p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
