@@ -1,0 +1,19 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: dimgray;
+}
+
+p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    font-size: 20px;
+}
+#canvas{
+    border: 1px solid lightgray;
+    width: 500pt;
+    //height: 200pt;
+    margin: 10px;
+}
