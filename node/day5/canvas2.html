@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="canvas2.css">
+        <script type="text/javascript" src="canvas2.js"></script>
+    </head>
+    <body>
+        <h1>Choose a color</h1>
+        <canvas id="canvas">
+        </canvas>
+        
+        <p>
+            Make a lime:　
+            <input type="button" id="btn" value="Make lime" onclick="doLime()"/>
+        </p>
+        <p>
+            Choose a color: 
+            <input type="color" id="clr" value="#000000" onchange="doColor()"/>
+        </p>    
+        <p>
+            Make a Square: <input type="range" id="slr" min="10" max="60" value="10" oninput="doSquare()"/>
+        </p>
+
+    </body>
+
+</html>
