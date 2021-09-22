@@ -1,0 +1,18 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#canvas1{
+    border: 1px solid lightgray;
+
+}
+
+input{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
