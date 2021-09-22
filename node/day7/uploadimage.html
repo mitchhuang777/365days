@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="uploadimage.css">
+        <script defer="defer" type="text/javascript" src="uploadimage.js"></script>
+        <script type="text/javascript" src="duke.js"></script>
+        
+    </head>
+    <body> 
+        <h1> Upload Image Prototype </h1>
+        <canvas id="canvas">
+        </canvas>
+        <canvas id="canvas2">
+        </canvas>
+        <p>
+            <input type="file" id="finput" multiple="false" accept="image/*" onchange="upload()"/>
+            <!--
+            Filename: <input type="text" id="finput"/>
+                     <input type="button" id="button" value="Upload" onclick="upload()"/>
+            -->
+        </p>
+        <p>
+            <input type="button" value="GrayScale" onclick="makeGray()"/>
+        </p>
+    </body>
+
+</html>
