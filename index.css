@@ -14,7 +14,7 @@
     text-align: center;
     text-decoration: solid;
     font-size: 3rem;
-}
+}  
 .top-container p{
     font-size: 1.5rem;
 }
@@ -25,6 +25,7 @@
 }
 .website-list-container{
     font-size: 1.2rem;
+    border-bottom: solid black 1px;
 }
 .website-list-container ul li{
     padding: 5px;
@@ -35,5 +36,16 @@
 }
 
 .website-list-container a{
+    text-decoration: none;
+}
+
+.website-list-container-2{
+    font-size: 1.2rem;
+    border-bottom: solid black 1px;
+}
+.website-list-container-2 ul li{
+    padding: 5px;
+}
+.website-list-container-2 a{
     text-decoration: none;
 }
