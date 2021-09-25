@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="greenscreen.css">
+        <script defer="defer" type="text/javascript" src="greenscreen.js"></script>
+        <script defer="defer" type="text/javascript" src="../day7/duke.js"></script>
+    </head>
+    <body> 
+        <h1> Remove Green Background </h1>
+        <div class="can">
+            <canvas id="fg-canvas">
+
+            </canvas>
+            <canvas id="bg-canvas">
+
+            </canvas>
+        </div>
+        <div>
+            <p>Foreground Image <input type="file" id="fginput" multiple="false" accept="image/*" onchange="loadForegroundImage()"/></p>
+            <p>Background Image <input type="file" id="bginput" multiple="false" accept="image/*" onchange="loadBackgroundImage()"/></p>
+            <p> <input type="button" value="Create Composite" onclick="doGreenScreen()"/>
+                <input type="button" value="Clear Canvas" onclick="clearCanvas()"/></p> 
+        </div>
+    </body>
+
+</html>
