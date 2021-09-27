@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="filter.css">
+        <script defer="defer" type="text/javascript" src="filter.js"></script>
+        <script defer="defer" type="text/javascript" src="../day7/duke.js"></script>
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="footer-class">
+
+            </div>
+            <div class="top-container">
+                <h1> Fun Filter </h1>
+                <canvas id="canvas">
+
+                </canvas>
+            </div> 
+            <div class="bottom-container">
+                <p> <h2> Load Iamge </h2>
+                    <input type="file" id="imageInput" accept="image/*" multiple="false" onchange="loadImage()"/>
+                </p>
+                <p>
+                    <h2> Choose Filter</h2>
+                    <input type="button" id="grayscale" value="grayscale" onclick="doGrayScale()"/>
+                    <input type="button" id="red" value="red" onclick="doRedScale()"/>
+                    <input type="button" id="window" value="window" onclick="doWindowScale()"/>
+                    <input type="button" id="rainbow" value="rainbow" onclick="doRainbowScale()"/>
+                    <input type="button" id="blur" value="blur" onclick="doBlurScale()"/>
+                </p>
+                <p>
+                    <input type="button" id="reset" value="reset" onclick="reset()"/>
+                </p>
+            </div>
+            <div class="footer">
+
+            </div>
+        </div>
+    </body>
+
+</html>
