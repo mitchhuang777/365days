@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="steganography.css">
+        <script defer="defer" type="text/javascript" src="steganography.js"></script>
+        <script defer="defer" type="text/javascript" src="../day7/duke.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1> Hide a picture into another picture. </h1>
+            <h2> (Two Picture must be same size) </h2>
+            <div class="canvas-container-1">
+                <p> Image you want to hide something in it.</p>
+                <canvas id="canvas-start">
+                </canvas>
+            </div>
+            <div class="canvas-container-2">
+                <p> Image you want to hide</p>
+                <canvas id="canvas-hide">
+                </canvas>
+            </div>
+            <div class="canvas-container-3">
+                <p> Something in the Image </p>
+                <canvas id="canvas-decode">
+                </canvas>
+            </div>
+                <p>
+                    <input type="file" id="finput_start" multiple="false" accept="image/*" onchange="uploadStartImage()"/>
+                    <input type="file" id="finput_hide" multiple="false" accept="image/*" onchange="uploadHideImage()"/>
+                </p>
+                <p>
+                    <input type="button" class="button" value="Combine Two Graphic" onclick="doSteganography()"/>
+                    <input type="button" class="button" value="Decode the Image" onclick="doDecode()"/>
+                </p>
+            </div>
+            <div id="message">
+            </div>
+        </div>
+    </body>
+
+</html>
