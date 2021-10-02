@@ -1,0 +1,52 @@
+html{
+    height: 700%;
+}
+.head{
+    position: fixed;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    z-index: 2;
+}
+.body{
+    position: relative;
+    top: 800px;
+    z-index: 1;
+}
+.body-2{
+    position: relative;
+    top: 1600px;
+    z-index: 1;
+}
+
+.body-3{
+    position: relative;
+    top: 2400px;
+    z-index: 1;
+}
+.body-4{
+    position: relative;
+    top: 3200px;
+    z-index: 1;
+}
+.body-5{
+    position: relative;
+    top: 4000px;
+    z-index: 1;
+}
+
+img{
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+    margin: auto;
+}
+#info{
+    color: #ccc;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-size: large;
+    z-index: 1;
+}
